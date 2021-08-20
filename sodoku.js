@@ -26,7 +26,7 @@ function EmptySpot(sudoko){
 // The checkRow function takes the board as an argument , the row that would like to check value that we want to add to this row
 
 function checkRow(sudoko, row, value) {
-    for(let i = 0; i < sudoko.length; i++) {
+    for(let i = 0; i < sudoko.length; i++) {  
         if (sudoko[row][i] === value) {
             return false;
         }
