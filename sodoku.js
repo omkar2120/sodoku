@@ -98,4 +98,5 @@ function checkValue(sudoko , row , column , value) {
 
 console.log(sudoko);
 console.log("Solved Sudoku");    
-console.log(solve(sudoko));          
+console.log(solve(sudoko));                
+         
