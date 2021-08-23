@@ -1,5 +1,5 @@
 let sudoko =  [
-    [ 0,0,0,2,6,0,7,0,1 ],  // 0 is indicate a Empty value   
+    [ 0,0,0,2,6,0,7,0,1 ],  // 0 is indicate a Empty value  
     [ 6,8,0,0,7,0,0,9,0 ],
     [ 1,9,0,0,0,4,5,0,0 ],
     [ 8,2,0,1,0,0,0,4,0 ],
@@ -10,9 +10,6 @@ let sudoko =  [
     [ 7,0,3,0,1,8,0,0,0 ] 
 ];
 // function will search for empty position  0 // this function find empty value 
-
-
-
 function EmptySpot(sudoko){
     for (let i = 0; i < 9; i++) {
         for (let j = 0; j < 9; j++) {
@@ -77,7 +74,7 @@ function checkValue(sudoko , row , column , value) {
 };
 
 // Now we need to try every possible number from 1 to 9 and check if it is valid 
- function solve(sudoko) {
+function solve(sudoko) {
      let emptySpot = EmptySpot(sudoko);
      let row = emptySpot[0];
      let col = emptySpot[1];
