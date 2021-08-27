@@ -9,7 +9,7 @@ let sudoko =  [
     [ 0,4,0,0,5,0,0,3,6 ],
     [ 7,0,3,0,1,8,0,0,0 ] 
 ];
-// function will search for empty position  0 // this function find empty value 
+// function will search for empty position  0 
 function EmptySpot(sudoko){
     for (let i = 0; i < 9; i++) {
         for (let j = 0; j < 9; j++) {
